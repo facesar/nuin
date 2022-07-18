@@ -1,10 +1,14 @@
 
 import './App.css';
 
+import COMPONENT_1_W from './components/wrapComponents/Component_1_wr';
+
+
 function App() {
+
   return (
     <div className="App">
-      <h1>hello cucu</h1>
+      <COMPONENT_1_W />
     </div>
   );
 }
